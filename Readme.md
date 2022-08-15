@@ -8,3 +8,14 @@
 8. Jalankan perintah `php artisan key:generate`.
 9. Jalankan perintah `php artisan serve`.
 10. Kemudian buka sistem dengan mengakses localhost:8000.
+
+
+Credential
+
+-Admin
+email: admin@mail.com
+password: pass123
+
+-user
+email: johndoe@mail.com
+password: pass123

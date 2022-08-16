@@ -1,4 +1,9 @@
-1. Clone project dari github.
+**CentPro**
+CentPro merupakan sistem informasi yang berfungsi sebagai sentralisasi promo. Pada sistem disediakan informasi tentang promo penerbangan, promo hotel, promo layanan kesehatan, serta promo transportasi darat seperti kereta api, bus, serta rental mobil.
+
+Langkah untuk instalasi CentPro
+
+1. Clone project atau download dalam bentuk zip dari repository github.
 2. Import database `centproDB.sql` pada phpmyadmin.
 3. Copy file `env.example` dan diberi nama `.env`.
 4. Pada file `.env`, isikan konfigurasi database (username, password, nama database) sesuai dengan yang telah di import.
@@ -13,9 +18,11 @@
 Credential
 
 -Admin
+Mengelola data promo serta data akun.
 email: admin@mail.com
 password: pass123
 
--user
+-member
+Melihat dan menyimpan promo.
 email: johndoe@mail.com
 password: pass123
